@@ -1,0 +1,93 @@
+  
+body {
+  background: rgb(41, 30, 30);
+  background-size:cover; 
+  width: 100%;
+  height:100%;
+}
+
+input {
+	width:300px;
+	height:30px;
+	border-radius:20px;
+	font-size:20px;
+	margin-right:20px;
+	text-align: center;
+	outline:none;
+}
+
+label {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.isDone-label {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+button{
+	width:150px;
+	height:40px;
+	font-size:20px;
+	border-radius:10px;
+	color:white;
+	background:#D03322FF;
+	border:solid 0px;	
+	margin:10px;
+	outline:none;
+	cursor: pointer;
+}
+
+button:hover {
+	background:#4A9672FF;	
+}
+
+.delet-button {
+	width:35px;
+	height:30px;
+}
+
+.edit-button {
+    width:50px;
+	height:30px
+}
+
+.names-ground {
+    color: #D03322FF;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+.close-modal-button {
+	width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close-modal-button {
+	width: 35px;
+    height: 33px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-footer-button {
+	float: right;
+	width: 100px;
+    height: 30px;
+}
+
+.items{
+	height: 60px;
+	border: 2px solid;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	background-color: bisque;
+}
